@@ -1,0 +1,40 @@
+guid: dfd432d4-0170-411b-826c-5cd6ec8fe97b
+liveboard:
+  name: tsadmin's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total sales by region
+      tables:
+      - id: (Sample) Retail - Apparel
+        name: (Sample) Retail - Apparel
+        fqn: cd252e5c-b552-49a8-821d-3eadaa049cca
+      search_query: "[sales] [region]"
+      answer_columns:
+      - name: Total sales
+      - name: region
+      table:
+        table_columns:
+        - column_id: region
+          show_headline: false
+        - column_id: Total sales
+          show_headline: false
+        ordered_column_ids:
+        - region
+        - Total sales
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: region
+        - column_id: Total sales
+        axis_configs:
+        - x:
+          - region
+          "y":
+          - Total sales
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"region\",\"columnProperty\": {}},{\"columnId\": \"Total sales\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d9d3b43e-136c-42ac-b035-77bc6c405b84\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total sales\"],\"isOpposite\": false}},{\"id\": \"36a54862-623c-42ee-9c87-bb32e3e133ae\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"region\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total sales\",\"color\": \"#FF8142\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d773870c-eefd-4622-816b-e658b0dfb4f7
