@@ -1,0 +1,40 @@
+guid: 463f4f84-4f90-496f-8368-188e632614fb
+liveboard:
+  name: abi's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Lo Revenue by Lo Shipmode
+      tables:
+      - id: ws2
+        name: ws2
+        fqn: 9d368bd2-d246-4536-98f8-36a61bee7c9b
+      search_query: "[Lo Shipmode] [Lo Revenue]"
+      answer_columns:
+      - name: Lo Shipmode
+      - name: Total Lo Revenue
+      table:
+        table_columns:
+        - column_id: Lo Shipmode
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - Lo Shipmode
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Lo Shipmode
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - Lo Shipmode
+          "y":
+          - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"f56c6bce-925a-497a-9236-fa88d56bcc1f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"4e85e922-1925-479b-ac34-a798fbf8960a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Revenue\",\"color\": \"#8C62F5\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 320eaee1-b782-4278-9c8d-188642475943
