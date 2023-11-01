@@ -38,6 +38,17 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"f56c6bce-925a-497a-9236-fa88d56bcc1f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"4e85e922-1925-479b-ac34-a798fbf8960a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Revenue\",\"color\": \"#8C62F5\"}],\"tooltipConfig\": {}}"
       display_mode: CHART_MODE
     viz_guid: 320eaee1-b782-4278-9c8d-188642475943
+  filters:
+  - column:
+    - Lo Shipmode
+    oper: in
+    values:
+    - fob
+    - reg air
+    - truck
+    is_mandatory: false
+    is_single_value: false
+    display_name: ""
   layout:
     tiles:
     - visualization_id: Viz_1
