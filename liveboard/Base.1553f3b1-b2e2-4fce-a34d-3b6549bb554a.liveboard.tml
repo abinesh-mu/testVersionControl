@@ -45,3 +45,46 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"isStackedAsPercent\": false,\"stackedAsPercentFormat\": {\"category\": \"PERCENTAGE\",\"percentageFormatConfig\": {\"decimals\": 2.0,\"removeTrailingZeroes\": false},\"isCategoryEditable\": false},\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"75eda506-4f87-46e5-84de-ff14b6dc706b\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"884234c6-f02e-4ae5-ae4e-3dea7741c326\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"C Region\"]}}],\"systemSeriesColors\": [{\"serieName\": \"africa\",\"color\": \"#06BF7F\"},{\"serieName\": \"america\",\"color\": \"#FCC838\"},{\"serieName\": \"asia\",\"color\": \"#48D1E0\"},{\"serieName\": \"europe\",\"color\": \"#71A1F4\"},{\"serieName\": \"middle east\",\"color\": \"#2E75F0\"},{\"serieName\": \"{null}\",\"color\": \"#56D3A8\"},{\"serieName\": \"air\",\"color\": \"#06BF7F\"},{\"serieName\": \"fob\",\"color\": \"#FCD977\"},{\"serieName\": \"mail\",\"color\": \"#FCC838\"},{\"serieName\": \"rail\",\"color\": \"#82DFE9\"},{\"serieName\": \"reg air\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
     viz_guid: 12c74a03-bc06-4a11-b57a-7f01736c76cf
+  - id: Viz_2
+    answer:
+      name: Total Lo Revenue by C Region and Lo Shipmode
+      tables:
+      - id: ws-1
+        name: ws-1
+        fqn: ef1d8cef-5fde-4693-8528-d8c3338a0f49
+      search_query: "[Lo Revenue] [Lo Shipmode] [C Region]"
+      answer_columns:
+      - name: Total Lo Revenue
+      - name: Lo Shipmode
+      - name: C Region
+      table:
+        table_columns:
+        - column_id: Lo Shipmode
+          show_headline: false
+        - column_id: C Region
+          show_headline: false
+        - column_id: Total Lo Revenue
+          show_headline: false
+        ordered_column_ids:
+        - Lo Shipmode
+        - C Region
+        - Total Lo Revenue
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: Lo Shipmode
+        - column_id: C Region
+        - column_id: Total Lo Revenue
+        axis_configs:
+        - x:
+          - Lo Shipmode
+          "y":
+          - Total Lo Revenue
+          color:
+          - C Region
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"isStackedAsPercent\": false,\"stackedAsPercentFormat\": {\"category\": \"PERCENTAGE\",\"percentageFormatConfig\": {\"decimals\": 2.0,\"removeTrailingZeroes\": false},\"isCategoryEditable\": false},\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": false},\"columnProperties\": [{\"columnId\": \"Lo Shipmode\",\"columnProperty\": {}},{\"columnId\": \"C Region\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {\"dataLabels\": false}}],\"axisProperties\": [{\"id\": \"4c4f8460-388c-478a-bc24-507578a4ca5c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"6a976edc-bf1c-489e-8de7-77fed5fd1a5b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Lo Shipmode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"africa\",\"color\": \"#06BF7F\"},{\"serieName\": \"america\",\"color\": \"#FCC838\"},{\"serieName\": \"asia\",\"color\": \"#48D1E0\"},{\"serieName\": \"europe\",\"color\": \"#71A1F4\"},{\"serieName\": \"middle east\",\"color\": \"#2E75F0\"},{\"serieName\": \"{null}\",\"color\": \"#56D3A8\"},{\"serieName\": \"air\",\"color\": \"#06BF7F\"},{\"serieName\": \"fob\",\"color\": \"#FCD977\"},{\"serieName\": \"mail\",\"color\": \"#FCC838\"},{\"serieName\": \"rail\",\"color\": \"#82DFE9\"},{\"serieName\": \"reg air\",\"color\": \"#48D1E0\"},{\"serieName\": \"ship\",\"color\": \"#71A1F4\"},{\"serieName\": \"truck\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 7ca90dea-6edd-4d9a-90bf-1390a5bf1062
