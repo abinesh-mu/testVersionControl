@@ -1,7 +1,6 @@
 guid: 76355930-b853-4d25-b12e-dab09bd0d7d6
 answer:
   name: Total Lo Revenue by Quarterly Lo Commitdate
-  description: Decription
   tables:
   - id: New Ws that is used to create an alert on as auhqw      w
     name: New Ws that is used to create an alert on as auhqw      w
