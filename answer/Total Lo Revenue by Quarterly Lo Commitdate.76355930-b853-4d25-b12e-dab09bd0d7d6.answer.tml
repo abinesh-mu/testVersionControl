@@ -1,0 +1,32 @@
+guid: 76355930-b853-4d25-b12e-dab09bd0d7d6
+answer:
+  name: Total Lo Revenue by Quarterly Lo Commitdate
+  tables:
+  - id: New Ws that is used to create an alert on as auhqw      w
+    name: New Ws that is used to create an alert on as auhqw      w
+    fqn: 3bf55376-ef41-42d2-ac45-751be2692ece
+  search_query: "[Lo Revenue] [Lo Commitdate] [Lo Commitdate].quarterly"
+  answer_columns:
+  - name: Quarter(Lo Commitdate)
+  - name: Total Lo Revenue
+  table:
+    table_columns:
+    - column_id: Quarter(Lo Commitdate)
+      show_headline: false
+    - column_id: Total Lo Revenue
+      show_headline: false
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: KPI
+    chart_columns:
+    - column_id: Quarter(Lo Commitdate)
+    - column_id: Total Lo Revenue
+    axis_configs:
+    - x:
+      - Quarter(Lo Commitdate)
+      "y":
+      - Total Lo Revenue
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(Lo Commitdate)\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1d1536fb-7091-4591-b815-2b919b5d1b5f\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"de9f4190-2e0c-4187-adff-9b9827c90018\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Lo Commitdate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Revenue\",\"color\": \"#2E75F0\"}]}"
+  display_mode: CHART_MODE
