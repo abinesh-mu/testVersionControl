@@ -1,0 +1,32 @@
+guid: 32ce5116-5000-4369-91e3-79ce9e38877a
+answer:
+  name: Total Lo Revenue by Quarterly Lo Orderdate
+  tables:
+  - id: New Ws that is used to create an alert on as auhqw      w
+    name: New Ws that is used to create an alert on as auhqw      w
+    fqn: 3bf55376-ef41-42d2-ac45-751be2692ece
+  search_query: "[Lo Orderdate] [Lo Orderdate].quarterly [Lo Revenue]"
+  answer_columns:
+  - name: Quarter(Lo Orderdate)
+  - name: Total Lo Revenue
+  table:
+    table_columns:
+    - column_id: Quarter(Lo Orderdate)
+      show_headline: false
+    - column_id: Total Lo Revenue
+      show_headline: false
+    client_state: ""
+    client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+  chart:
+    type: KPI
+    chart_columns:
+    - column_id: Quarter(Lo Orderdate)
+    - column_id: Total Lo Revenue
+    axis_configs:
+    - x:
+      - Quarter(Lo Orderdate)
+      "y":
+      - Total Lo Revenue
+    client_state: ""
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Quarter(Lo Orderdate)\",\"columnProperty\": {}},{\"columnId\": \"Total Lo Revenue\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d405e816-eaa0-4bfd-befb-63fe96e344b1\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Lo Revenue\"],\"isOpposite\": false}},{\"id\": \"bbde8ef4-f18a-4747-a538-541c911310ae\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Quarter(Lo Orderdate)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Lo Revenue\",\"color\": \"#2E75F0\"}]}"
+  display_mode: CHART_MODE
